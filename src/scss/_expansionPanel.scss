@@ -1,0 +1,45 @@
+.MuiExpansionPanelSummary-root {
+  border-radius: $radius-small !important;
+  padding-left: 0px !important;
+}
+
+.MuiExpansionPanelDetails-root {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.MuiExpansionPanel-root.Mui-expanded:last-child {
+  margin-bottom: $margin-small !important;
+  border-radius: $radius-small !important;
+}
+
+.MuiExpansionPanelDetails-root {
+  border-radius: $radius-small !important;
+}
+
+.storepanel .MuiChip-label {
+  font-size: 12px;
+}
+
+.MuiChip-label {
+  font-family: "SF Pro" !important;
+}
+
+.MuiTypography-root {
+  font-family: "SF Pro" !important;
+}
+
+.MuiExpansionPanel-root {
+  box-shadow: none !important;
+}
+
+.checkbox_text_kpi {
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.expansionalPanelContainer {
+  border-bottom: 1px solid $icarrlightgrey;
+  // border-bottom: 1px solid $icarrlightgrey;
+}

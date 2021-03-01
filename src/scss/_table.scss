@@ -1,0 +1,204 @@
+.tableHeader {
+  font-weight: bold !important;
+  background-color: white !important;
+}
+
+img.tableImage {
+  object-fit: contain;
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.MuiTableContainer-root {
+  max-height: 500px;
+  background-color: white;
+}
+
+.MuiSwitch-track {
+  background-color: #000 !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  background-color: $icarrdarkgrey !important;
+}
+
+.MuiSwitch-track {
+  background-color: $icarrlightgrey !important;
+}
+
+.MuiSwitch-thumb {
+  background-color: white;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+  color: grey !important;
+}
+
+.sizeEditMaster .modal-dialog {
+  max-width: 90vw !important;
+  width: fit-content;
+  margin-top: 3% !important;
+}
+
+.sizeEditMaster .modal-dialog .modal-content .MuiTableContainer-root {
+  height: fit-content !important;
+  max-height: 80vh !important;
+}
+
+.sizeEditMaster
+  .modal-dialog
+  .modal-content
+  .MuiTableContainer-root
+  .MuiTableCell-root {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.sizeTableFont {
+  font-size: 10px !important;
+}
+
+.sizeEditMaster
+  .modal-dialog
+  .modal-content
+  .MuiTableContainer-root
+  .MuiTableCell-root {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 10px !important;
+}
+
+.padding_total {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.sizeInput {
+  width: 45px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid grey;
+  text-align: end;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.text_bold::placeholder {
+  color: black !important;
+  font-weight: bold;
+}
+
+.sizeEditMaster .modal-dialog .modal-content {
+  padding: 30px;
+}
+
+.confirmButtonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.disabledRow {
+  opacity: 0.6;
+}
+
+.MuiTableCell-stickyHeader {
+  z-index: 1 !important;
+}
+
+.tableHeader {
+  cursor: pointer;
+}
+
+.sizeHeader {
+  text-align: right !important;
+}
+
+.totalColumn {
+  text-align: right !important;
+}
+
+.sizeImageContainer {
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: -1px 0px 18px 5px rgba(249, 248, 248, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sizeEditImage {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.MuiSwitch-thumb {
+  color: white !important;
+}
+
+.iosSwitch {
+  padding-left: 11px !important;
+  padding-right: -16px !important;
+}
+
+.iosSwitchMaster .MuiFormControlLabel-root {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.iosSwitchMaster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sizeInput input:disabled {
+  color: red !important;
+  cursor: default;
+  background-color: white !important;
+  opacity: 0.6;
+}
+
+.colorCardContainerTable {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  height: 11px;
+}
+
+.tableNewLine {
+  color: $icarrlightgrey;
+}
+
+.MuiTableCell-root {
+  font-size: 12px !important;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.flagcontainerTable {
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 1px solid;
+  margin-right: 15px;
+}
+
+.countryflagTable {
+  transform: scale(1.27);
+  height: 25px;
+  width: 25px;
+  margin-top: -1px;
+  margin-left: -1px;
+}

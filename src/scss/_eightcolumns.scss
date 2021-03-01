@@ -1,0 +1,45 @@
+.col-xs-8r,
+.col-sm-8r,
+.col-md-8r,
+.col-lg-8r {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex-basis: auto;
+  flex-grow: 0;
+  max-width: none;
+}
+
+.col-xs-8r {
+  width: 12.5%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-8r {
+    width: 12.5%;
+    float: left;
+  }
+}
+
+// @media screen and (min-width: 1024px) and (max-height: 1310px) {
+//   /* Laptop */
+//   .col-lg-8r {
+//     width: 16.66666%;
+//   }
+// }
+
+@media (min-width: 1200px) {
+  .col-lg-8r {
+    width: 12.5%;
+    float: left;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1500px) {
+  /* Laptop */
+  .col-lg-8r {
+    width: 16.666667%;
+  }
+}

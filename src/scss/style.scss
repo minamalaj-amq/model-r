@@ -1,0 +1,64 @@
+@import "variables";
+@import "navbar";
+@import "helper";
+@import "cursors";
+@import "slider";
+@import "text";
+@import "progress";
+@import "search";
+@import "filterbar";
+@import "sbbottom";
+@import "filter";
+@import "button";
+@import "card";
+@import "rating";
+@import "cursor";
+@import "loader";
+@import "modal";
+@import "containers";
+@import "carousel";
+@import "kpi";
+@import "railbar";
+@import "sevencolumn";
+@import "eightcolumns";
+@import "productModalcarousel";
+@import "expansionPanel";
+@import "fivecolumns";
+@import "storepanel";
+@import "table";
+@import "alert";
+
+@font-face {
+  font-family: "SF Pro";
+  src: url(https://icarr-cdn.s3-eu-west-1.amazonaws.com/fonts/SF-Pro-Text-Regular.otf);
+}
+
+.App {
+  font-family: "SF Pro" !important;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+body ::-webkit-scrollbar {
+  -webkit-appearance: none !important;
+  display: none !important;
+  min-height: 100vh;
+}
+
+.MuiTableContainer-root {
+  font-family: "SF Pro" !important;
+}
+
+.MuiTableCell-head {
+  font-family: "SF Pro";
+}
+
+.MuiTableCell-root {
+  font-family: "SF Pro" !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}

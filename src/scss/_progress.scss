@@ -1,0 +1,42 @@
+.MuiStepper-root {
+  padding: 0px;
+  background-color: transparent;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: $icarrdarkgrey !important;
+  border: 0.1px solid white;
+  border-radius: 15px;
+  fill: $white !important;
+}
+
+.MuiStepIcon-active .MuiStepIcon-text {
+  fill: $icarrdarkgrey !important;
+}
+
+.MuiStepIcon-root {
+  font-size: 30px !important;
+  fill: transparent !important;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.MuiStepIcon-text {
+  fill: white !important;
+}
+
+.MuiStepper-root {
+  padding: 0px !important;
+}
+
+.MuiStepLabel-label {
+  color: white !important;
+}
+
+.blockProgress {
+  cursor: no-drop !important;
+}

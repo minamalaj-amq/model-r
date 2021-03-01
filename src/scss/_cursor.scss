@@ -1,0 +1,26 @@
+.btn.disabled,
+.btn:disabled {
+  cursor: no-drop;
+}
+
+.MuiButtonBase-root.Mui-disabled {
+  cursor: no-drop !important;
+  pointer-events: auto !important;
+}
+
+.MuiButtonBase-root.Mui-disabled.stepButton {
+  pointer-events: none !important;
+}
+
+.block_cursor {
+  cursor: no-drop;
+  opacity: 0.6;
+}
+
+.ui.disabled.rating .icon {
+  cursor: no-drop;
+}
+
+.card2 .ui.disabled.rating .icon {
+  cursor: default;
+}

@@ -1,0 +1,76 @@
+.button_round {
+  border-radius: 20px;
+}
+
+.MuiButton-label {
+  font-size: 10px;
+  text-transform: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.Mui-disabled {
+  opacity: 0.5 !important;
+}
+
+.Mui-disabled:hover {
+  opacity: 0.5 !important;
+}
+
+.MuiIconButton-root {
+  background-color: transparent !important;
+}
+
+.MuiIconButton-label {
+  color: $icarrdarkgrey;
+}
+
+.MuiCheckbox-root .MuiIconButton-label {
+  color: white !important;
+}
+
+.choosenButton {
+  background-color: white !important;
+  color: black !important;
+  font-size: 10px !important;
+  padding: 3px 5px !important;
+  box-shadow: 0px 3px 4px -2px rgba(202, 202, 202, 0.2),
+    0px 2px 2px 0px rgba(255, 255, 255, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  // border: 1px solid rgb(156, 155, 155) !important;
+  border-radius: 5px !important;
+  height: 29px !important;
+  font-weight: bold !important;
+}
+
+.nonchoosenButton {
+  background-color: transparent !important;
+  color: black !important;
+  font-size: 10px !important;
+  padding: 3px 5px !important;
+  // border: 1px solid rgb(156, 155, 155) !important;
+  height: 29px !important;
+}
+
+.MuiToggleButton-root {
+  text-transform: none !important;
+}
+
+.MuiToggleButton-root {
+  width: 70px;
+}
+
+.recalculate_button {
+  padding-right: 0px !important;
+  padding-left: 5px !important;
+  font-size: 5px !important;
+  // background-color: grey !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-right: 0px !important;
+}

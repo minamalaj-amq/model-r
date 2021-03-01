@@ -1,0 +1,31 @@
+.loader_container {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  position: absolute;
+  z-index: 999999999999999999999 !important;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+}
+
+.loader_container .active {
+  position: fixed;
+}
+
+.ui.dimmer {
+  background-color: white;
+}
+
+.ui.inverted.dimmer {
+  background-color: white !important;
+}
+
+.ui.inverted.dimmer .ui.massive.loader,
+.ui.massive.loader {
+  font-size: 15px;
+}
+
+.ui.massive.text.loader {
+  padding-top: 5.9rem;
+}

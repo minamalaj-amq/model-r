@@ -1,0 +1,180 @@
+.imagesize {
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.top_right {
+  position: absolute;
+  top: -7px;
+  left: 4px;
+}
+
+.top_right_railcard {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.bottom_right_railcard {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 10px;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.card_top_pill {
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 5px;
+  background-color: #e0e0e0;
+  width: 18px;
+  height: 18px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 9px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card_top_pill_cross {
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+.top_left {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 10px;
+  border-radius: $radius-large;
+  color: white;
+  // padding-left: 5px;
+  // padding-right: 5px;
+  // padding-top: 3px;
+  // padding-bottom: 3px;
+  z-index: 1;
+}
+
+.top_left_card {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-size: 10px;
+  border-radius: $radius-large;
+  padding: 12px;
+  z-index: 1;
+}
+
+.top_left_rail {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  font-size: 10px;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.top_left_step3 {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  font-size: 10px;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.top_right_rail {
+  position: absolute;
+  top: 12px;
+  right: 7px;
+  font-size: 10px;
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.top_right_ticket {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  border-radius: 10px;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+}
+
+.railbarclose {
+  height: 100% !important;
+  width: 100% !important;
+  margin-right: 0px !important;
+}
+
+.checkcard {
+  margin-right: 0px !important;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 0px;
+}
+
+.NotInRail {
+  opacity: 0.4;
+}
+
+.colorCardSwatch {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid $icarrlightgrey;
+}
+
+.colorCardContainer {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  height: 11px;
+}
+
+.colorCardContainerRail {
+  position: absolute;
+  bottom: 20px;
+  left: 12px;
+}
+
+.colorCardContainerModal {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.colorCardSwatchModal {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid $icarrlightgrey;
+}
+
+.style_pill {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: #ebecec !important;
+}

@@ -1,0 +1,11 @@
+.bottom_position {
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1500px) {
+  /* Laptop */
+  .laptop_hide {
+    display: none;
+  }
+}
