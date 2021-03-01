@@ -42,47 +42,86 @@ class Home extends Component {
                         varvalue={14}
                     /> 
                 </Row>
-                <Row className="kpi-inline margin-bottom--50px margin-left-none margin-right-none">
-                    <div className="new-kpi-bar margin-left-none margin-right-none">
+                <Row className="margin-bottom--50px margin-left-none margin-right-none new-kpi-bar">
+                <Col>
                     <Row>
-                    <Col xs={5} className="kpi-col flex align_items_center padding-right-none">
-                    <div>
-                        {/* <span className="kpi-bold">{`${this.props.title}     `}</span> */}
-                        <span className="kpi-bold-title">KPI title</span>
-                    </div>
-                    <div class="kpi-number">
-                        X Skus
-                    </div>
+                        <Col  className="kpi-col flex align_items_center padding-right-none">
+                        <div>
+                            {/* <span className="kpi-bold">{`${this.props.title}     `}</span> */}
+                            <span className="kpi-bold-title">KPI title</span>
+                        </div>
+                        <div class="kpi-number">
+                            X Skus
+                        </div>
+                        <div className={(this.props.positive ? "kpi-arrow-up" : "kpi-arrow-down")}></div>
+                        <div className="text_mediumgrey">
+                            <span class="text_red"> 23
+                            </span>
+                            <span className="fs-medium reco">vs Reco.</span>
+                        </div>
+                        </Col>
+                        </Row>
                     </Col>
-                    <Col xs={7} className="flex align_items_center">
-                    <div className={(this.props.positive ? "kpi-arrow-up" : "kpi-arrow-down")}></div>
-                    <div className="text_mediumgrey">
-                        <span class="text_red"> Val
-                        </span>
-                        <span className="fs-medium">.vs Reco</span>
-                    </div>
+                    <Col>
+                        <Row>
+                        <Col className="kpi-col flex align_items_center padding-right-none">
+                        <div>
+                            {/* <span className="kpi-bold">{`${this.props.title}     `}</span> */}
+                            <span className="kpi-bold-title">KPI title</span>
+                        </div>
+                        <div class="kpi-number">
+                            X Skus
+                        </div>
+                        {/* <div className={(this.props.positive ? "kpi-arrow-up" : "kpi-arrow-down")}></div> */}
+                        <div className="kpi-arrow-up"></div>
+                        <div className="text_mediumgrey">
+                            <span class="text_green"> 32
+                            </span>
+                            <span className="fs-medium reco">vs Reco.</span>
+                        </div>
+                        </Col>
+                        </Row>
                     </Col>
-                    </Row>
-                    {/* <Row>
-                    <Col xs={5} className="flex align_items_center padding-right-none">
-                    <div>
-                        {/* <span className="kpi-bold">{`${this.props.title}     `}</span> */}
-                        {/* <span className="kpi-bold">KPI title</span>
-                    </div>
-                    <div class="kpi-number">
-                        X Skus
-                    </div>
+                    <Col>
+                    <Row>
+                        <Col className="kpi-col flex align_items_center padding-right-none">
+                        <div>
+                            {/* <span className="kpi-bold">{`${this.props.title}     `}</span> */}
+                            <span className="kpi-bold-title">KPI title</span>
+                        </div>
+                        <div class="kpi-number">
+                            X Skus
+                        </div>
+                        {/* <div className={(this.props.positive ? "kpi-arrow-up" : "kpi-arrow-down")}></div> */}
+                        <div className="kpi-arrow-up"></div>
+
+                        <div className="text_mediumgrey">
+                            <span class="text_green"> 78
+                            </span>
+                            <span className="fs-medium reco">vs Reco.</span>
+                        </div>
+                        </Col>
+                        </Row>
                     </Col>
-                    <Col xs={7} className="flex align_items_center">
-                    <div className={(this.props.positive ? "kpi-arrow-up" : "kpi-arrow-down")}></div>
-                    <div className="text_mediumgrey">
-                        <span class="text_red"> Val
-                        </span>
-                        <span className="fs-medium">.vs Reco</span>
-                    </div>
+                    <Col>
+                    <Row>
+                        <Col className="kpi-col flex align_items_center padding-right-none">
+                        <div>
+                            {/* <span className="kpi-bold">{`${this.props.title}     `}</span> */}
+                            <span className="kpi-bold-title">KPI title</span>
+                        </div>
+                        <div class="kpi-number">
+                            X Skus
+                        </div>
+                        <div className={(this.props.positive ? "kpi-arrow-up" : "kpi-arrow-down")}></div>
+                        <div className="text_mediumgrey">
+                            <span class="text_red"> 12
+                            </span>
+                            <span className="fs-medium reco">vs Reco.</span>
+                        </div>
+                        </Col>
+                        </Row>
                     </Col>
-                    </Row> */} 
-                    </div> 
                 </Row>
             </div>
             </>
